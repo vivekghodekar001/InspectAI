@@ -1,0 +1,30 @@
+[
+  {
+    "file": "normal.png",
+    "original_relative_file": "test/good/000-95.png",
+    "mirror_file": "data/data_49/000-95.png",
+    "license": "CC BY-NC-SA 4.0",
+    "modification": "Resized to 256x256"
+  },
+  {
+    "file": "broken-large.png",
+    "original_relative_file": "test/broken_large/000-94.png",
+    "mirror_file": "data/data_49/000-94.png",
+    "license": "CC BY-NC-SA 4.0",
+    "modification": "Resized to 256x256"
+  },
+  {
+    "file": "broken-small.png",
+    "original_relative_file": "test/broken_small/000-93.png",
+    "mirror_file": "data/data_49/000-93.png",
+    "license": "CC BY-NC-SA 4.0",
+    "modification": "Resized to 256x256"
+  },
+  {
+    "file": "contamination.png",
+    "original_relative_file": "test/contamination/000-96.png",
+    "mirror_file": "data/data_49/000-96.png",
+    "license": "CC BY-NC-SA 4.0",
+    "modification": "Resized to 256x256"
+  }
+]

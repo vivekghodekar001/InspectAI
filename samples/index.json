@@ -1,0 +1,18 @@
+[
+  {
+    "file": "normal.png",
+    "label": "Normal"
+  },
+  {
+    "file": "broken-large.png",
+    "label": "Large break"
+  },
+  {
+    "file": "broken-small.png",
+    "label": "Small break"
+  },
+  {
+    "file": "contamination.png",
+    "label": "Contamination"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "file": "test/good/006-95.png",
+    "defect": "good",
+    "label": 0,
+    "score": 1.792428,
+    "threshold": 1.472671,
+    "decision": "Review defect",
+    "is_anomaly": true,
+    "latency_ms": 20.9
+  }
+]

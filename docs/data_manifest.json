@@ -1,0 +1,2053 @@
+{
+  "revision": "30a183a3b96e3aef953f230784b123b719b09d97",
+  "resize": [
+    256,
+    256
+  ],
+  "images": [
+    {
+      "file": "train/good/176-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/176-13.png",
+      "sha256": "df42d4c08b23210fdd7f34f5b6ffd9609fcd46da7825b50e0cc25533e9636777",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/162-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/162-13.png",
+      "sha256": "b0ca78bef082c741cd8d9ec92c2b7a3c06552360d5233010ddda2db9efe84308",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/189-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/189-13.png",
+      "sha256": "78c6508c3a57a46330a088342407823ceec9fca9d87db21915227a84215eaed4",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/002-92.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/002-92.png",
+      "sha256": "bfab6f467594e38d47015f90721ea5aab244c75b447b4f13a8f033d091334581",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/016-69.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/016-69.png",
+      "sha256": "01cc687af1a6d84a4835ca04e8c38704436ab72a1ffe2e189ffc78df2d37a6c9",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/200-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/200-13.png",
+      "sha256": "9bcfd61bc8e22ba12b03fc615539c160d7541949906744d48d47a071560655d4",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/201-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/201-13.png",
+      "sha256": "ab8aac4717858bdbfb0e46cd87ed4b7386ea1a0f572cc941e4aa4d7ae96293a6",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/017-59.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/017-59.png",
+      "sha256": "4ae81d576afe766918801eb9277e8303c1428fdf630c354ec19221f909322829",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/003-92.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/003-92.png",
+      "sha256": "4d64f8ff255feec291b6734051e39e06e32eb74b2d96695fb065dc993d49aa45",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/188-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/188-13.png",
+      "sha256": "52e7af139065f3699035d0c555057f16a1296ca899cbeef6783acf97eebc50b9",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/163-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/163-13.png",
+      "sha256": "9fb26a9a0dfc561e5e5e1815f530391d4e422ad60054ac5b5b43fd967f9a7cf1",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/177-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/177-13.png",
+      "sha256": "d63d553c09eeebc3967da8a1fae90a53f0cb01680de4612a3fb1e5e0bb4ca0cc",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/149-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/149-13.png",
+      "sha256": "afb428234f9c85294719c8f0bba33faf7e7053557f4f7d1505224e1734704f9f",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/161-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/161-13.png",
+      "sha256": "cd1973fc712e24a84dc7a1209f6f9b246575badad6f90bb28824fa622281edbe",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/175-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/175-13.png",
+      "sha256": "44f6257f778ae236755ddf2797b947bd4437c437e6cbb5e412ded02641fa44ea",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/029-22.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/029-22.png",
+      "sha256": "26a69ed3c6728befe0e3cdbef5d4e59ec725fbbe755af3937d2c13977ed14e3c",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/015-73.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/015-73.png",
+      "sha256": "a235fd4099588ec64b0c880821cacf84830272804546e13fd50985956db535d5",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/001-92.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/001-92.png",
+      "sha256": "c5985d6ad8bd81963e29976e65589794e35facd12c9b94423c223a7383eed031",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/203-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/203-13.png",
+      "sha256": "3eb670d2257dcce8a07c70af6a53e292b4d0acdeae22662f71ffc54c07d27880",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/202-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/202-13.png",
+      "sha256": "e875312d47bd5f2daab89929b155739249306e48f0474867dfaaf1f403965a6d",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/000-92.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/000-92.png",
+      "sha256": "b0a5b3daad3587041a17400cf3264e430f1262b3664ccf2ad43b5be325ea537c",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/014-74.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/014-74.png",
+      "sha256": "8f430c1357aa6033ee6ad2bc2dc967735001a16cd2eabbf1ea1a9eee05e7acc1",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/028-22.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/028-22.png",
+      "sha256": "9fc19b679000bf53c81078c1f99781c6272a8584182536f1c771225617c5b213",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/174-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/174-13.png",
+      "sha256": "8cf2a277282f86e8df296cf44ae99fa893773c5f35305619ea0745005334177e",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/160-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/160-13.png",
+      "sha256": "c1da1e748643d3e608bc709cc52951837900371b30c908696ff809bd0a43d0b5",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/148-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/148-13.png",
+      "sha256": "202c8ecb18d7f3ecdf999c466a7a6be179ce8b49c638a2d2134e6d55a54e25c9",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/164-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/164-13.png",
+      "sha256": "17d5860d5fed104e171e53128aa2badaa826e62472f6759fddcb382a0f7c9911",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/170-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/170-13.png",
+      "sha256": "4aef152e4ba3452422f51e8625fe8f9f744cc7c7e5210af9bab6b53f08154d7c",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/158-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/158-13.png",
+      "sha256": "06dc72ed97d30b2c385781ab5c9e21b42250f6525a6b387e0b7da440e234ff66",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/010-81.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/010-81.png",
+      "sha256": "7c730c982ed2ca89d09930b934fd5cacb8eb1d7cde7877afc817eb87c7a2fb62",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/004-92.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/004-92.png",
+      "sha256": "979eb49ee20237eacc7aaf9e0df59886c9d9a745828db8f9a4a636e9eecd0c0b",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/038-18.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/038-18.png",
+      "sha256": "593461c851263da3a61527d0dbacad056bce6bf31bf916ebfc86cddb16cacde4",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/206-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/206-13.png",
+      "sha256": "0a535be143c8a74730578f23c92ff2b01d4bde19cc4a8d40728675a75de26e94",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/207-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/207-13.png",
+      "sha256": "47f104a95bbd5f86a0eb2e4e7bf4d65b9b65e3465f5f4bba37c50a09c672663d",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/039-18.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/039-18.png",
+      "sha256": "64a6a4feef122391b6839ced21af4768c382e9d3c27562890e96dcac3dc8f29a",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/005-92.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/005-92.png",
+      "sha256": "955078dc5f055be002dec55bc495c159ea64fb2a874fd51ac6cc23923c4f3507",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/011-79.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/011-79.png",
+      "sha256": "6bef6181790334c2cba27e2cdeacafb21bba6c30932474a2bb5a4af467df0f56",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/159-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/159-13.png",
+      "sha256": "63d7ab9d59fe751790dfb80e6e16bc7a15dcb600fd6c8862eef54555943daa7d",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/171-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/171-13.png",
+      "sha256": "25139dabbff296871691e631c53b8c87e3c4ae426b8aa3f0a9d960cb0356bf53",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/165-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/165-13.png",
+      "sha256": "d6e8163092a47ddff026ab309baf576d5e5639beb30e011d17c4b9fc8b276e7f",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/173-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/173-13.png",
+      "sha256": "cf3a97992681749546464344a59957e5926cb7e78aba27333efb41720d7c9a1e",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/167-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/167-13.png",
+      "sha256": "516adbe93507cc5a28d5cd7886164b86a5e784a99c8c6c52fce7f660bbfe5501",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/198-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/198-13.png",
+      "sha256": "7af7acd445ed25d79b9b65f40d3e453eeba4821e6e9a3228f5b73909b5d99cb9",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/007-92.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/007-92.png",
+      "sha256": "08429cad51e0d8a41b05578ef17ec8f693f40c482857aeffd23df18667cda8f3",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/013-75.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/013-75.png",
+      "sha256": "60420c56418ba15eb6778dc2af74cf432662dc0abc67fb99f65a9d40cb0d2afe",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/205-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/205-13.png",
+      "sha256": "a65985228ebea679622c7a0c2d70f3e474773989fb196ccb9fe5689e780c6e5f",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/204-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/204-13.png",
+      "sha256": "fcef0ba7096c6ef98e290dea164e0350645fe83161423495829aaf7c885bcc45",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/012-76.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/012-76.png",
+      "sha256": "efbd5c7fa4f90d815411cf8f2e8af1eafb6b8b9d33610a9af4edf3ba22825aff",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/006-92.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/006-92.png",
+      "sha256": "e528bd9dc6377f9e249b5450e4df1d1fbe8629d591774fb5668cdba6a18e5b0a",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/199-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/199-13.png",
+      "sha256": "42a9f8f8cb0ba22a1b9a690e30cbdc1daa6c935dd59c6565f4df03833d566448",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/166-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/166-13.png",
+      "sha256": "f5dfe723016e8bd9b3b30d2bca250acdedf54853be39c045d829f985ecf7f980",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/172-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/172-13.png",
+      "sha256": "3808c68b951e448852cffe2ea8a97e431289aab7477518423bcc18eb2a69e27b",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/129-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/129-13.png",
+      "sha256": "52851a414ce5d046b3d761e7bd122417641cd9f8a9fbe04452bc5ed2566e0ca3",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/115-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/115-13.png",
+      "sha256": "14471f9c51eda0e419c8b532e73f584d9612006f69fd5ef71ffea0a153cff854",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/101-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/101-13.png",
+      "sha256": "12910442e97b5afd46847acacb9fc204caf8c2c827b57253ba6fefe4a1d7e76f",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/049-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/049-16.png",
+      "sha256": "fbf007350311781010646a510ba43da9b5d21613acff18614d16d24608e229f6",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/061-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/061-13.png",
+      "sha256": "c19b552c03d59102f270a5f129fd1fe01ccaa8fe185bc0ef3556ee89d1c96d47",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/075-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/075-13.png",
+      "sha256": "154d3cc14bd4bb2d25d06011d6a9ee5cfe68e2c2f84ecdd291831991133046f2",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/074-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/074-13.png",
+      "sha256": "d4834ecae6eb01ee197da11a716a4e00646abca0db10d78ebb0e4885274e699e",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/060-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/060-13.png",
+      "sha256": "788cc0f8a5633a7d1f5d47ff2d26f054c692ea5a3283e0415424bc810b3e3500",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/048-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/048-16.png",
+      "sha256": "edf18bce69992533c30f4ec0a2474851ecb94ddd5fa061b97d146bc9babfd295",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/100-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/100-13.png",
+      "sha256": "8aad7cb9137d8c18dca7e834c1c70011ba04ec13b6c8a0a96d55d335354c0c3a",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/114-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/114-13.png",
+      "sha256": "e526477e3f0b785a428f8b629d35de1de50a9b519e437fee5b488c0b90fb4cf3",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/128-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/128-13.png",
+      "sha256": "b33dc801a86f252c7cccc35b97974bd267c3a4696903a81ec8fdb81619fa5552",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/102-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/102-13.png",
+      "sha256": "6f5eba0889f943f82e4c51e68c72d058db4d4f5f60198397da8db7716d180a61",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/116-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/116-13.png",
+      "sha256": "9410401e75d298688600225242f2de4e2d343356dadf0b02b59abf72be5a53c3",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/076-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/076-13.png",
+      "sha256": "219e26530def5ff0768d3d8de5cd53030db981f92f2c5e3bc18f77c63ac864ed",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/062-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/062-13.png",
+      "sha256": "ffe270129e469690bdfdd6a8ea3c5094274f382ab1bfea8483ffad8e8e4d3f82",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/089-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/089-13.png",
+      "sha256": "743710f2a6bc427fd5ba54027e24dfc60c93dd85725e7fcee01ff7fe5211577c",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/088-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/088-13.png",
+      "sha256": "eb10d0c0346974d0d80929a830bf1ae7e56aadfd8d89afa0623b365d41699ba9",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/063-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/063-13.png",
+      "sha256": "e071f6607b95425ce9e2a84a0686edd4fd5d457033a13463b6ff43178f639118",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/077-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/077-13.png",
+      "sha256": "80969fe25774edf7b807a7331f6932a2b3870ebeacda17fe41aeaaf274b5b903",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/117-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/117-13.png",
+      "sha256": "47f7933623ecd0b978edd9c15b101b67cd67ce2a1d58182345c4270d47c8eabd",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/103-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/103-13.png",
+      "sha256": "91d4c8997b6ea2646112013e67f717ad82365c71349d3f7ecc74457565fa9c4a",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/107-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/107-13.png",
+      "sha256": "185859b111b74b2882b1a7ce1c5c01a2b3839bd7035f4509d823a926ee119ac2",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/113-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/113-13.png",
+      "sha256": "7fdca96c18cc6c1de4254ffe44aef435816e2a789c98498f86ee44f573b18d5b",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/073-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/073-13.png",
+      "sha256": "9190faab1d0d12b1a0658f7b215a8b5e0cf02c1aa1e2e3ebe396a824962021c2",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/067-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/067-13.png",
+      "sha256": "d01548beeaabf1abd6f4989413800d6be65b4aa61d4d5b0d9772b92a1328e165",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/098-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/098-13.png",
+      "sha256": "f5053649568678bf38e254cb83e07f3c9ccd9c316400077f8e91309c983611b3",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/099-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_47/099-13.png",
+      "sha256": "cef3acdbc593598e8632908f067b4c1c4164204e1d7f66acd1448d3f510532dc",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/066-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/066-13.png",
+      "sha256": "bbc86d6177eb33262e721a914e03db211b293b45df26715fde585efe2b36f0b0",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/072-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/072-13.png",
+      "sha256": "96804a818ec51e5ccb7eb7fc261724f08ecce23b570a67361fa585fb965a7225",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/112-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/112-13.png",
+      "sha256": "66945da5947124589719bfac3320b6a512c6a98ba287330da123fef85151dbf7",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/106-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/106-13.png",
+      "sha256": "92b2d95755a8a1d53b2e7e5b6b9a89fe2f462d45427d6f69eef5ad9e6da81119",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/110-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/110-13.png",
+      "sha256": "ff6ed4355cd896e89b8d46632f3d923a9ff0dfbd05d273fc611bf8423972e74a",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/104-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/104-13.png",
+      "sha256": "0635f15a381bfbc678eb542ca7daf9281876258a5aff588100ecb306ef818d3c",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/138-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/138-13.png",
+      "sha256": "ffd7ef7931637c9f87da1e7281920c16b46f6ccb4dc4ff6123175cc587992b39",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/064-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/064-13.png",
+      "sha256": "da076ea9df23261076e064ecaccab291d738079a5230f0df2709936d48ea2b68",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/070-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/070-13.png",
+      "sha256": "457e8b2cfc9ac6259180c32f65f48ef52f1076808d95985f7bf380cafe183d67",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/058-15.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/058-15.png",
+      "sha256": "090e5acabe8d6ce9f18c7656e1983a67b616607607c7554b4205e077e21f6817",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/059-15.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/059-15.png",
+      "sha256": "6c27df70001f189495f0d020982f7e6be32da87995bafa06770a2035b1c2e56f",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/071-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/071-13.png",
+      "sha256": "6ed643a0422d7632c3071d460a19a710fd6d01290bf27b29111e0ff592fe5f43",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/065-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/065-13.png",
+      "sha256": "ff81eb9595689730c08e415b2bc9a299e62abf4f35a3f256198c1749d662d2b0",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/139-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/139-13.png",
+      "sha256": "25d454b954ab140d1362a5bd572825d104ff6bb2f2de4373ca012d73f2043620",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/105-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/105-13.png",
+      "sha256": "1d38efb9172de1801a218b7da2dd3e0f809c7d3f77441ddfe2e01dbefad81fd1",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/111-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/111-13.png",
+      "sha256": "6e3ea8acf6b6db1b835488f93903c06bb3974d97c9459288957926e3d66433b7",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/108-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/108-13.png",
+      "sha256": "8dde33e393cdbc20de2e525705ebae0f239f57c6e7b273606c654e57bfb1fc0f",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/134-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/134-13.png",
+      "sha256": "54ac0f252944c9245d4fc3e1dba4b4d9f4877c65d7e0570691fb06e78c86f7e3",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/120-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/120-13.png",
+      "sha256": "2b2fd174dcf710039319fe1ab47a63e530c2aed6af4ec0601ea480c8875cb8ef",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/068-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/068-13.png",
+      "sha256": "df393fc504066d34f49578861d7573a24cc9cfd3534b872030e421252591e883",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/040-17.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/040-17.png",
+      "sha256": "1cf8476c7515da4e09f336c807b1d55bb58a7a26fec3cb8ffba43dd13cc7f9d1",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/054-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/054-16.png",
+      "sha256": "e5e26c2b406e4cbc75fec99f9e996cfd4c449206261d6a77e129384a12650cf4",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/083-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/083-13.png",
+      "sha256": "25adb93e2ae9b7c3056ceb64fa98a53e54ac68e418ea105680bed8ec40a0c354",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/097-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/097-13.png",
+      "sha256": "2b2b7353477ade113b9de1bdfe7f0a1974fc5a4d45dc20e19942581cdd9895b6",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/096-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/096-13.png",
+      "sha256": "136db83a397dd6b796e8d64d18b14d2e6a8b9e2efe6dc28510c0e8219b34ef49",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/082-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/082-13.png",
+      "sha256": "210bf321598362f2e0753806eb3ee285f53c3cf8be9ab5acabc4f7916ec3bdf9",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/055-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/055-16.png",
+      "sha256": "eaff453421495dc77f2dfc7cba973ca7d93bef344117e4ef438f5d5a7c3bed40",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/041-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/041-16.png",
+      "sha256": "fab77f252187b510ca2e9af409570622ea675a6b53302fcd10d149438153f7d3",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/069-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/069-13.png",
+      "sha256": "ad0f194fe7c8f6aea2057227674782ae0403ee939fb2fdcf4a1fd8dd65b8ba80",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/121-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/121-13.png",
+      "sha256": "aa5b26e46f8ebfdfb051c1640a9303b8f0d5857f5640f606e8405a6bdad0ead6",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/135-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/135-13.png",
+      "sha256": "6b616ee247bb6ac451bc49fcf4e2c5f33361546c147205f983a3a9320fa5fce5",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/109-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/109-13.png",
+      "sha256": "78ef3bfaefea792783cf78552be48d200c679fa5f52a259e15ac08c519b643f1",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/123-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/123-13.png",
+      "sha256": "fc1c7a3e0eaa3c3b5cc921626f540d0513a2b2c69003fe1812e846471eef0258",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/137-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/137-13.png",
+      "sha256": "e289053289d66e86235ac92cee4f40221513cda614cc3b34d93e4920e4f889ea",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/057-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/057-16.png",
+      "sha256": "196f29633add64be1b06e76859a5c21df27fabe687423e414596e2f2b80eca41",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/043-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/043-16.png",
+      "sha256": "b7f83a2e868750540d2aa79944749e68c38d2ef4143d908c19b36ef609e85ba0",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/094-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/094-13.png",
+      "sha256": "d2dc5d6beab32b31b6036c87a44ae8a4ac7634e118ffb9f76a821e1c8fce01fd",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/080-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/080-13.png",
+      "sha256": "86e0a825b6c7f043454be57070e8031bd9be746db9ab68a70f6a0222e98d7a0c",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/081-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/081-13.png",
+      "sha256": "c2a4ff91fd51e5a3cd83eb6a6c53d735a4cc79374a58c201686965d2dd2a609d",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/095-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/095-13.png",
+      "sha256": "c9ac41690360e9eae3beafcffbbbfd0ee984f78393aa13fd93d17fcae4e822b9",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/042-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/042-16.png",
+      "sha256": "ff6bfa224f49ca9d392dcefc14cd71e22e757343be9be5b37a91b8c99bb10c38",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/056-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/056-16.png",
+      "sha256": "66a39b618cb5eefe70e292d9f8955dc2eef7f82e90f1de695cd4f80d66f56d9c",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/136-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/136-13.png",
+      "sha256": "56596d0d758362e07a933edafc5c6c3036c94c79ecce0f2851c290ebd0e53a91",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/122-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/122-13.png",
+      "sha256": "498ca2cc6bd745862fb53d98ea21831eafab19922d10b9c4b0d64bae1569127a",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/126-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/126-13.png",
+      "sha256": "160a8a162abfe72e9c6765b40be3da0b5c694708158bb5e4472c39775ea9af78",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/132-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/132-13.png",
+      "sha256": "5dc220b6feab987e328d304eea824ccba9fd2ee52930bd03c25990288e89186c",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/052-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/052-16.png",
+      "sha256": "8ce0b19aa187231474deb0ed96a3b98184a6bdff2493efb0c0dd5fb92ec2577a",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/046-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/046-16.png",
+      "sha256": "c93dfd5d1a04952739fd324f5af2fa2ca972ce47c22a51fbf5ea60a2594708a4",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/091-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/091-13.png",
+      "sha256": "643629c237c4c075297ec062754f140c5fd465ba6d48c80adc8112dbcc7daa65",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/085-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/085-13.png",
+      "sha256": "a4651da559f954accb15f6fd3946c0e249fa08ed48bebec1e64035b24f988d7f",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/084-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/084-13.png",
+      "sha256": "e97533a4a4a422f6a83cde0448a725154042aaec9eabb4e8f525a41712556d2a",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/090-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/090-13.png",
+      "sha256": "319e61f0255799d1a63cde1caf719df626401b286db7f7ae8317dd5b1dba1c79",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/047-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/047-16.png",
+      "sha256": "16ab93ae55f047d9af6f59c47df4b068899cc0cf8f76e2c26a18ed2be7793ef6",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/053-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/053-16.png",
+      "sha256": "926341e4ac809c68b7c1ab0b5d60155b54b3c5b01ec9f22f1ac7073ea2374a61",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/133-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/133-13.png",
+      "sha256": "fe86e9f40f4bfb223f982b20e26def336c762cbeb6306d0acd1073ddb814fb75",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/127-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/127-13.png",
+      "sha256": "920f7b871a1307b86fcec670fa2e51cca1d89992e865b2c139e52116c49ba2a0",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/131-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/131-13.png",
+      "sha256": "8431b4d15b308d9ec8263a6379fa4c65dace62ac3e33c2717e97419a49789d0f",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/125-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/125-13.png",
+      "sha256": "99bb6b35f83780103012bd88f677400559f5e18ced2b3b167f416c195bbf8e4f",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/119-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/119-13.png",
+      "sha256": "a2a8cc8d58a15338c023018b8200a684d6cf1f93b91ab251e9a54c23639e3bfa",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/045-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/045-16.png",
+      "sha256": "a2246bc3cfd9d2ac34aa4555549acfec7fd49fcabde8c8654d1b5c9f70d42246",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/051-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/051-16.png",
+      "sha256": "d8875b2dea9e934bdc54a1ba4a19d4fd03cd6f1c2e10d9fa6da308d707ae4a55",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/079-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/079-13.png",
+      "sha256": "d0a79dca26952ff9fa2e2dc001f6fc4dae816b701096ce91b2b2b0e18c5fffc7",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/086-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/086-13.png",
+      "sha256": "46d90117f8cbc4bacf23ccc61ed34ddd39f5099ae98014cae83198bab8a5d87e",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/092-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/092-13.png",
+      "sha256": "dce3ad8733d4c29e42554542d106726893f602cfc207a4097b0cf7cb4f95aab9",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/093-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/093-13.png",
+      "sha256": "851a8f700961f96526d05043659798eaba037f7500410f2e72d0b4a56bf34140",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/087-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/087-13.png",
+      "sha256": "ce6f5199e8740f15f99a5efd72d2b33dbe36e7838aec3ea2a8b232bf509f4349",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/078-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/078-13.png",
+      "sha256": "358000048d7749ff373a8e3fc46a27e9eb00b519b488e02f330c959067117ea9",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/050-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/050-16.png",
+      "sha256": "557062b330293fc3169748d9c416fd96161a49cfefbe1b1d7ea307f63c27c25b",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/044-16.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/044-16.png",
+      "sha256": "efea77410fb7dc1a8c05771bc808e2529181cc115641f5a3b9697d480af4af0e",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/118-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/118-13.png",
+      "sha256": "321aa4561ce13a10f146eff5a4d79c09bebb041dd2f5f24185f399359a1aab90",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/124-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/124-13.png",
+      "sha256": "5038244ccb3b32f820ab4983c03aa7a81f5fd34d287019436c77e7d00fa54ab7",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/130-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/130-13.png",
+      "sha256": "f610c5908784a3fd890f57a95ba0acb1db001c93f2c7385b94cf3eb477bbab8a",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/157-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/157-13.png",
+      "sha256": "620fa14a1751e2fb21b53ce078aac73a2ca8f10812ec63bb37c84bf5f62da796",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/143-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/143-13.png",
+      "sha256": "ed6fe7f4051ce05cfcc2c36d84cbe24265c7c3fc7ffe18fd79d7c12196995feb",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/194-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/194-13.png",
+      "sha256": "d3fffd03e0ee1d802f64914daff8a167a45c50c3567cfe307410cecdd695c20a",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/180-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/180-13.png",
+      "sha256": "c1ac68d2e6001ad00265fd289a6b523297c1fdf85584375f88a310b0ce4599fe",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/023-31.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/023-31.png",
+      "sha256": "58371acec9f315a7fbceb589004718057864dc9d0a633cddaf4ea29646d56e7b",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/037-18.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/037-18.png",
+      "sha256": "54c93f1e0aa6fa06d19a5f34e488ad13815374a53cc8f9ad8d782e6c54b3ceb2",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/208-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/208-13.png",
+      "sha256": "669b04de3d79080fb65805e4889f70ca7ee807a4febdf7faa2c2950f032eb620",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/036-18.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/036-18.png",
+      "sha256": "81fc81c6ef71f600ee22297e76bd8a40f03633b852d80696fe30875fff5a208c",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/022-38.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/022-38.png",
+      "sha256": "c6adcdc3e3d608c41fd338f0b7d47e981a5bfc2295e56de3e6718ec39fe1b2db",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/181-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/181-13.png",
+      "sha256": "9af35873c18b91963b7389bae44969bc3f121e98c297bf948499b67596e6d044",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/195-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/195-13.png",
+      "sha256": "182415480ff5abfa9601dff8960727bc101eb1017913f19d529caf81f69d9dca",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/142-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/142-13.png",
+      "sha256": "4fd73123f3c30a27e6f435558fefd35d7876904e54b7707ca90bf36836c749be",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/156-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/156-13.png",
+      "sha256": "e0117f2f472886412c631fb2228db5abcd14827f08050dda58f8df64af0e29ac",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/168-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/168-13.png",
+      "sha256": "8e7f30cf265353f330667bb237cef94777e31f9631c17eb74ecfa0313f13af44",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/140-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/140-13.png",
+      "sha256": "8f506093d7c982b62ef197e7288d02ad0a4958a02e662dc8bee0c3a9fb83ae9e",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/154-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/154-13.png",
+      "sha256": "2f12543004ea1ea0bee3afe1ed0f01ae243c995955037358181aac2607f88008",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/183-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/183-13.png",
+      "sha256": "97bf7cdb91f2be43cb5d2c7bd28e93c7cea48ad205c21066dbe82ac2e767a563",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/197-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/197-13.png",
+      "sha256": "47620d0a0d38b1c6f2d93a048edd3c15c71456a700ae90d033614f5c0a3eafcc",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/008-91.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/008-91.png",
+      "sha256": "6125c049820846b58dae5bdd2c59530ab93feb4487dd09b47dc00ed47ca82916",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/034-18.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/034-18.png",
+      "sha256": "f4b16c9ff692d863f8564e8d47a4d8cb2ff72f81fc1d64cee80119b10fe5e20b",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/020-44.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/020-44.png",
+      "sha256": "72e49e6fda0abfabadfec5e77fc9f41136f0a6869f3908d128ca38785d082c33",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/021-41.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/021-41.png",
+      "sha256": "abf86fee85e81648554b59f637291b25d2b606d871bdedd2b74489c5185bff4e",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/035-18.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/035-18.png",
+      "sha256": "4a928265b8af9c4673bbf6c8484cc5dc87b5c3d5b9c7b862e2a012d77cdf4e9d",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/009-90.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/009-90.png",
+      "sha256": "6ed0d278a98cf0f6201d49687ecd8d114b92835892d54e1dcbd6067f9209d65c",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/196-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/196-13.png",
+      "sha256": "b753fb87d0b3355e6f0fc241758632933798957700b10351ee3af2b098de52cb",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/182-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/182-13.png",
+      "sha256": "d9a5b3a09a12becce5b429fc25bbdb778251ff4e2ac3e3a24fc962aea449e6f9",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/155-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/155-13.png",
+      "sha256": "3f62993be56119928bd665222b9c393db52a5a691e8d567cd06efcaf430c38f1",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/141-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_48/141-13.png",
+      "sha256": "ae3c40a97a209c8980fc306f824dacc0b32bdcfe9302384bb21cd28874b2b134",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/169-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/169-13.png",
+      "sha256": "b02b0728b8031fd000b1deb822eaf218f357899dec4610e5ea0f2229641ef803",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/145-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/145-13.png",
+      "sha256": "47d5d64140c579ab7312e6d4a3b14fd446830fcc0ffb836fe8937af8cbe0f41d",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/151-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/151-13.png",
+      "sha256": "dc89fdeffecff133ea1142a2d0a81cccf18c65ddf5c7102dcc7fe1ba46c0e6f9",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/179-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/179-13.png",
+      "sha256": "e86582e2a2b07a30332a46596e83b2103f7b109d14b11aadeb4ba9d4c96d20eb",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/186-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/186-13.png",
+      "sha256": "c6ae4abfa991b91beca0e1c885dae70ff1c8717d3255013c488ff24321b5758e",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/192-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/192-13.png",
+      "sha256": "d84720a449a32e885f92b92e2a17d3ffe2736d4bfde3522a09a7db50c80ac9f4",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/031-21.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/031-21.png",
+      "sha256": "fe7fe0c41bbf9c8a70c0132489c48878cd095ea043947c31f24e7260458fbcdc",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/025-25.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/025-25.png",
+      "sha256": "2868302295d60c7cdd5b0bc70fa72202bf84c41fba003bfb5f83d0c88b212ca7",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/019-45.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/019-45.png",
+      "sha256": "c985b617fcc31efae1aa8a2d80b2244e0ac65613c3dc4baa1c03c04862f5ec9e",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/018-53.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/018-53.png",
+      "sha256": "96958925d81fe6a3a88e3f15e23627e14ea8f2d5d9315a2b3c326b4bed572d62",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/024-28.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/024-28.png",
+      "sha256": "7d904a30da1295832bb43d21134648ae94cbef18d9c5132758fa981205700d36",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/030-21.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/030-21.png",
+      "sha256": "fa641e1a1c3f751133fa57f91ca72e3967568a797176be1b040c85d6c58a7cad",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/193-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/193-13.png",
+      "sha256": "27898048452b5a7e938df49648a8e98a8713a4b2f04515221078a84b475fa43b",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/187-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/187-13.png",
+      "sha256": "8c93f36b9ec17d44cb1e18eaa46359b2ac319c873bb7934024eba63882e37547",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/178-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/178-13.png",
+      "sha256": "cae947ad502a9fd4be0fa3a29d0d8c475541199b99cb7211fe3802b1fe16fe0d",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/150-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/150-13.png",
+      "sha256": "c54d67be50b1ef2bb822d1e5599921650608dcd569b3fdae39ff001e757c80ae",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/144-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/144-13.png",
+      "sha256": "84ecce309cc688d5cc425006429774b9620cc7a6c306a0e1f632c636b902a82d",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/152-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/152-13.png",
+      "sha256": "266f5b21947bd88bf1d5df73b935c0b1b50b738832feae2cd29ec3fa5fecb2e8",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/146-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/146-13.png",
+      "sha256": "fa1c2e77363e1426d5941da428ab399c3d66ad2e19af1bfbf4d0bf52a39e6e0f",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/191-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/191-13.png",
+      "sha256": "59378f70bf07774ba9e59036ccf97465048b313ec9013da8624fc30499da1fcc",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/185-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/185-13.png",
+      "sha256": "192880012d3c1ae2757e165947567936945b37d41ceb3e912f4a0f3a7136aa48",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/026-23.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/026-23.png",
+      "sha256": "0d73ba1d4328f03ee7da387f8bfa46d0ade115af554c2ffd66f26a8e45c4cc1d",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/032-19.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/032-19.png",
+      "sha256": "5e289b8a37f892681e138bfc3de5e6976772ee94fd12643a2e466c891b01d753",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/033-18.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/033-18.png",
+      "sha256": "345dd76c2c125ab287673ce2a9baba68a7170f1316e98f6f5a2188a1edd09287",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/027-23.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/027-23.png",
+      "sha256": "be6eaffa0b585607b86ccd42fe94f68a9ffedbcd8a7c8d1b4d4067deda4fbc7a",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/184-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/184-13.png",
+      "sha256": "7ec2bfc262237999904ef5947d79caf2bc75f746841c685441ab050bef1c443d",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/190-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/190-13.png",
+      "sha256": "98268ee22666d2a146e69df54f4aac59d326b2a8019cd6800a84d1060e0bab32",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/147-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/147-13.png",
+      "sha256": "5015b05fe4955abe56fd4d4f0cc7e1cdf10d79d1e9f5286d6bcb929710e88f79",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "train/good/153-13.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/153-13.png",
+      "sha256": "c8ee1c815acb9af28b85ca526d5da4940538f71fb19a99897e6baf0d905b968e",
+      "split": "train",
+      "defect": "good"
+    },
+    {
+      "file": "test/broken_small/002-93.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/002-93.png",
+      "sha256": "6429d3eaae5057ac6618621244e138be426e12cbe693bfb6c259364c73700b90",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/016-70.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/016-70.png",
+      "sha256": "329b29c675e22ee6c28e13e32aceead0257557b0a1ec40664dacff91cbe12b7f",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/017-60.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/017-60.png",
+      "sha256": "a83c4309a371d83ab6c917eb744350bfa9f98aa3a82ff0c9da5d820fc1367d60",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/003-93.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/003-93.png",
+      "sha256": "b1d6c5e2ad9ace6fbf9a02eb4f1386823e50beffba9db8ec3fe5dbc9517e1ed1",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/015-74.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/015-74.png",
+      "sha256": "cff65d8d082816c22c4f2d51ce1ea7e5f6ee02c228d5a8842ac0c78d67137705",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/001-93.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/001-93.png",
+      "sha256": "7cf0139d25022925a2d51c95f6696b28c9d181948b64346794721eee323d7590",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/000-93.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/000-93.png",
+      "sha256": "850728ce1feb15a6f4f7975a1002275681c407ce7e8dd1f0104c8695611ac1c7",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/014-75.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/014-75.png",
+      "sha256": "96dfb1376839d17578cb6fc1c043c7988a3f50ece41fdae8c8c672f1b9e7c17d",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/010-82.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/010-82.png",
+      "sha256": "b7276cbbed086b19ff761e7e9cd4160a3fe8a80122feeb929acbf1460f803927",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/004-93.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/004-93.png",
+      "sha256": "4ea1011e53d49474c77f48fdeabe123866ce206b71ac6295b68eb52755065b0f",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/005-93.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/005-93.png",
+      "sha256": "2916a1b217892301963289a4e627f491b1eaaa13fda56c6ea265c19db291d7f8",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/011-80.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/011-80.png",
+      "sha256": "d6ec665cdf372e9f0500ee33d771c3a7e9958b481dd1b91f15edc584ecd7c393",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/007-93.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/007-93.png",
+      "sha256": "f64c8b56b6680fa899aa6ba64e19d98860e87f55f2c51d22f559390f8c67e9b2",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/013-76.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/013-76.png",
+      "sha256": "6bdc1059b8943ba400bdd5075cb5d163d6317f2ae3fb453ec074502ad517d1a9",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/012-77.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/012-77.png",
+      "sha256": "5ae896880bd9dbcc8a832e6cea10f79a8ad812349944f142f2fba022260a1e94",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/006-93.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/006-93.png",
+      "sha256": "c15bbdf19c46a4918feff42a3df76ae43da6e81433e9598950cbf6a4cf10ba89",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/008-92.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/008-92.png",
+      "sha256": "831869c05ff89dcb2a2ee08cd5dbc1bbd70c16fa4591f59c0a3238e46fdce9bb",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/020-45.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/020-45.png",
+      "sha256": "c71bbadbc31f08e2f18444edfc50a6498cb5c7914d7875c24166190386dba465",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/021-42.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/021-42.png",
+      "sha256": "1b11b3246d9b97ca032015ce08f0fd56887d050bcc82ebdfb5ec74794acd3bb4",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/009-91.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/009-91.png",
+      "sha256": "983eb9b207526184d94314fb025c6cc60ef5cf310ce9c16ccee2f6d48f1eb281",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/019-46.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/019-46.png",
+      "sha256": "9d9030456c244c1fd865feb1a9bd74d4b6ff0e07bc4381760cd9d82640ddc4c8",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_small/018-54.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/018-54.png",
+      "sha256": "c73cb629dc2a421fd41007bdea8e6b094ac81ceb471957e67d7b5a946c05d14c",
+      "split": "test",
+      "defect": "broken_small"
+    },
+    {
+      "file": "test/broken_large/002-94.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/002-94.png",
+      "sha256": "834c1c4c8654a54905781339c7ca7144eb7cadcccc5e173df09a3db21e3569aa",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/016-71.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/016-71.png",
+      "sha256": "789cd5f683a60af7290bbe081820ad65c60357c6a9b04bc1065efe26889aaaf4",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/017-61.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/017-61.png",
+      "sha256": "1a80801ccb55088eb581d579977becba9a9505a228d7327d065560dabad5c119",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/003-94.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/003-94.png",
+      "sha256": "0e352869f1f65bee3696e1dd544061f50fdf33b37a762661dd4f07431e210417",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/015-75.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/015-75.png",
+      "sha256": "617671f84349a1bcb92e39b82fb103c4a67ab3c136e1935c67c7d7311d5df545",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/001-94.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/001-94.png",
+      "sha256": "eb013bddaddf6b4d474f4d253274975dc1cd166792ef193907825f645db51492",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/000-94.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/000-94.png",
+      "sha256": "577922f161988edcca6e44e208572fc40b58a427d8ff6d6ae8ccf16d871ba085",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/014-76.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/014-76.png",
+      "sha256": "e3d789b9d145413a07ead8c99a8b8708183a0741c2d3682776b1173aee28d779",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/010-83.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/010-83.png",
+      "sha256": "27b9422c173873d04dddfe142e2bdc4a352de7d9d229f05dea0de9e556524bf1",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/004-94.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/004-94.png",
+      "sha256": "98fdf6f91f87df06fba0cf6ec49a322b4d9c05b410949c186970874db4c52619",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/005-94.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/005-94.png",
+      "sha256": "1b748dfeb3d27b7f9dd722c908e81aefa938f2ed5b9aeebee41b50559a2bf842",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/011-81.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/011-81.png",
+      "sha256": "d4801900d0b734790d1866e085884dc787a9793273530c017510874154493c75",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/007-94.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/007-94.png",
+      "sha256": "9e6dee5ff0bf70761ebdf53ad42d8cdd6d4bc8159fdcb6d27eb24e566b59a130",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/013-77.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/013-77.png",
+      "sha256": "edcf48a8937b5e1289c67665929f1bc8be7ecded2923189c1f2bd5536ab98f49",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/012-78.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/012-78.png",
+      "sha256": "3b791b50f3a9ed28837450cee8f49eed513d56cb56b3b887ee78e95d7a099f81",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/006-94.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/006-94.png",
+      "sha256": "ed12f66eedaf96f336c2f08d5d938138c8528d0e3a9e930e5c6aa8dbbeb93f09",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/008-93.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/008-93.png",
+      "sha256": "c396b2b111002661973de31d1a82603899165f02df353a7472556b6ef13b161b",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/009-92.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/009-92.png",
+      "sha256": "92c4f173d4a398938ee5739dd07a74bf172e52ebb9a4155c81233deea7e11a83",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/019-47.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/019-47.png",
+      "sha256": "f93bc0ec32c9ef3a4bb37445aaa4ad374cb419130048c7744eeeae463cfbe9e7",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/broken_large/018-55.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/018-55.png",
+      "sha256": "47089bffb49afa96ca1dc2030bffd6a8d53c18d2c10200c912b0fec4045dec6f",
+      "split": "test",
+      "defect": "broken_large"
+    },
+    {
+      "file": "test/good/002-95.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/002-95.png",
+      "sha256": "a78c180e48c0580af762bc0ba2cd7411adda067c5d8c258e3d8e532a815ce283",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/016-72.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/016-72.png",
+      "sha256": "ef8617e81405c5f58bd4ecff7da890f3c8ecb358268ab6e2af2c105ea3265df8",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/017-62.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/017-62.png",
+      "sha256": "c734f8da421b7f923195843b4eecca7553295b964c04cd4154b59f5c96f47f46",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/003-95.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/003-95.png",
+      "sha256": "c9af398e8e968206ecf88730add3cd8deefdf26903ced54b64d5ccf84cdce162",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/015-76.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/015-76.png",
+      "sha256": "d60fb19e42cfe2a8d46c9c54a5bb234b10e89b0a9bdee5d4001dffe8cb5a2889",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/001-95.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/001-95.png",
+      "sha256": "2027e5808f0260dc65b4fa24865c8fa387a15486e6ad1506071e8e277a4ef850",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/000-95.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/000-95.png",
+      "sha256": "51b8bca6ebc5e4f001b9771acd3e831f3782537d8c4de970a655077136f45856",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/014-77.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/014-77.png",
+      "sha256": "77784083b53fab2de28a8277544a9464a044a9d6fb9efade8fb8a3c8c1c30409",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/010-84.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/010-84.png",
+      "sha256": "ab7608e7682e97107e9535912012c4069dff5b844eaa1e488261396e06d9408e",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/004-95.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/004-95.png",
+      "sha256": "7ab064b05c1a6f68bced75053bc792ff4d9da404bafe09eacdfa17f856473e12",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/005-95.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/005-95.png",
+      "sha256": "b00f1105214f392d4143c042cf2a94c241af814227a3aac328c0b49c82cba465",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/011-82.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/011-82.png",
+      "sha256": "34d81d17d4e54f07ea5e9d5a46fa4b5b5c3a5c3118333f102f118eed1f26c6bf",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/007-95.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/007-95.png",
+      "sha256": "c30c024e0e7a2adb54b90e90b787ee7e6fa62347be80ef358546aa9e27ced7d3",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/013-78.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/013-78.png",
+      "sha256": "31fd5a92b1ea2139ddc1db7cfce8dc369ac338e7f8554b466fd4722f615823df",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/012-79.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/012-79.png",
+      "sha256": "0427a5bc815752f9ac4595cedd1e60f4c8cf29a8dc5b9d4d2d37512f111386de",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/006-95.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/006-95.png",
+      "sha256": "491e05337a33fd7ceeb6989b00cb554d7845d756da89fc8101eeb7488146ee51",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/008-94.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/008-94.png",
+      "sha256": "1880c5ff504998c3614d5f78d05dd544e18700ce903cd5c68101dffe59882bd7",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/009-93.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/009-93.png",
+      "sha256": "bc5a54be1c8533b1b6a36bacbca86b4be2eeb717292b3d7068259248237c0490",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/019-48.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/019-48.png",
+      "sha256": "56660e7044fadc4cb6c6ff3eeff73b49f4674d05a9a0dcddf01015725bc828c5",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/good/018-56.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/018-56.png",
+      "sha256": "852d19df0cb4af8ed5c9af1f3e155110526714ae4e799b0a675200a2ba519c4e",
+      "split": "test",
+      "defect": "good"
+    },
+    {
+      "file": "test/contamination/002-96.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/002-96.png",
+      "sha256": "4c04d8d49ce8be6c0f6df4e1c2613c854dc6e9041cb99de233c914f6b9bb23a8",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/016-73.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/016-73.png",
+      "sha256": "d02a3910140d9c1443099e0b3695b465fc109e4ae9f23f6bebf61221993d5cda",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/017-63.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/017-63.png",
+      "sha256": "a72c62840ef3c3c900851f0f0b8a655d3d41759c39f9ae63711bb2e3b0dbca44",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/003-96.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/003-96.png",
+      "sha256": "106981ad1d48c7cc75ab39899d5dac38b2007ede0511fc0d8f010f5787c1ae39",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/015-77.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/015-77.png",
+      "sha256": "c3ca7f23357f01ac6036b34b5ae0deb344c7d29d9e4647aaf9c85a51f6f88578",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/001-96.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/001-96.png",
+      "sha256": "fdeec23d4676e284ed4c6966ff2d7b11259b2cca7e49a98cfc7e3eb268f2b27f",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/000-96.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/000-96.png",
+      "sha256": "b98399cd1efb9db68beae197710b5b2e51121c4d0591873e5864f13e4d63b508",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/014-78.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/014-78.png",
+      "sha256": "14065ee213705525eb7e88f2a2ac6f47d6717d0ea520adb544c0bd92b838412b",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/010-85.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_49/010-85.png",
+      "sha256": "507e85c101f8568380d8cfed98bf7ce91ce0d54fadca576f811354871927dd65",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/004-96.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_50/004-96.png",
+      "sha256": "6f5b0c240c4ca2dca99dd0f17cb058c53b68a398d506edf94bf9552c7e457cf3",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/005-96.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_50/005-96.png",
+      "sha256": "3edc5302250fdf07cb2d810e9e486258c2e53f6060c0bb9987daa502b78241f0",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/011-83.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_50/011-83.png",
+      "sha256": "b9c0bfad96072074e8232dcfc949be37a5a4a92f7958ba774ff700066c5fe141",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/007-96.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_50/007-96.png",
+      "sha256": "58e67491c3aacb00b0d1637fa606a11690ea1a8812edb3eadacbf16b4c6a9d63",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/013-79.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_50/013-79.png",
+      "sha256": "84d400d66cd52e3235ce3cca880388d717c595dbc9b069408e44583e3f198461",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/012-80.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_50/012-80.png",
+      "sha256": "7078aa0be057ab2be14dea5d86f5ffdd89c4b41e1d961518ee77978744754c29",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/006-96.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_50/006-96.png",
+      "sha256": "8b6a823a61b2c5440f720fd8323a708d9603f6bb28fb7629ad4599566a2b304a",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/008-95.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_50/008-95.png",
+      "sha256": "fa7f74d7e64db68bf478df33a82d33fb0f53fabd1d887f350a0b44b01eff6c01",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/020-46.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_50/020-46.png",
+      "sha256": "4592fc76adfe101707f576025062f4596d3cdf04669b1f5a93b8eed5845e5a4f",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/009-94.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_50/009-94.png",
+      "sha256": "6704aa92be9c18ecfcb96232681c06f38487d7c55724382807fa3c5d0887fbd5",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/019-49.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_50/019-49.png",
+      "sha256": "9169797defba98af5cbf1a4e8ed4481a64c22806a0728d56016c431d30b250f9",
+      "split": "test",
+      "defect": "contamination"
+    },
+    {
+      "file": "test/contamination/018-57.png",
+      "source": "https://huggingface.co/datasets/Voxel51/mvtec-ad/resolve/30a183a3b96e3aef953f230784b123b719b09d97/data/data_50/018-57.png",
+      "sha256": "5ee3500e7a7630e0daf28a20ca90432f1a269d6fcd6726ae314e78cba43a173a",
+      "split": "test",
+      "defect": "contamination"
+    }
+  ]
+}

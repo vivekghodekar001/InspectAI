@@ -1,0 +1,42 @@
+{
+  "dataset": "MVTec AD bottle \u2014 full official test split via pinned mirror",
+  "test_images": 83,
+  "normal_images": 20,
+  "defect_images": 63,
+  "image_auroc": 0.9992063492063492,
+  "average_precision": 0.999751984126984,
+  "precision": 0.984375,
+  "recall": 1.0,
+  "f1": 0.9921259842519685,
+  "confusion_matrix": [
+    [
+      19,
+      1
+    ],
+    [
+      0,
+      63
+    ]
+  ],
+  "confusion_matrix_order": [
+    [
+      "TN",
+      "FP"
+    ],
+    [
+      "FN",
+      "TP"
+    ]
+  ],
+  "threshold": 1.4726710319519043,
+  "threshold_selection": "Normal-only calibration; test labels never used to choose threshold",
+  "median_inference_ms": 25.6,
+  "p95_inference_ms": 39.529999999999966,
+  "hardware": "x86_64 CPU; torch threads=2",
+  "pixel_localization_evaluated": false,
+  "per_defect_recall": {
+    "broken_large": 1.0,
+    "broken_small": 1.0,
+    "contamination": 1.0
+  }
+}

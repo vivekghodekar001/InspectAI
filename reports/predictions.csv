@@ -1,0 +1,84 @@
+file,defect,label,score,threshold,decision,is_anomaly,latency_ms
+test/broken_large/000-94.png,broken_large,1,2.972571,1.472671,Review defect,True,36.2
+test/broken_large/001-94.png,broken_large,1,2.802157,1.472671,Review defect,True,27.6
+test/broken_large/002-94.png,broken_large,1,2.966327,1.472671,Review defect,True,22.9
+test/broken_large/003-94.png,broken_large,1,3.151832,1.472671,Review defect,True,28.9
+test/broken_large/004-94.png,broken_large,1,3.122311,1.472671,Review defect,True,35.7
+test/broken_large/005-94.png,broken_large,1,2.938251,1.472671,Review defect,True,26.8
+test/broken_large/006-94.png,broken_large,1,3.235304,1.472671,Review defect,True,27.2
+test/broken_large/007-94.png,broken_large,1,2.657267,1.472671,Review defect,True,23.3
+test/broken_large/008-93.png,broken_large,1,2.863103,1.472671,Review defect,True,20.1
+test/broken_large/009-92.png,broken_large,1,2.575916,1.472671,Review defect,True,30.4
+test/broken_large/010-83.png,broken_large,1,2.98426,1.472671,Review defect,True,28.7
+test/broken_large/011-81.png,broken_large,1,2.420078,1.472671,Review defect,True,30.2
+test/broken_large/012-78.png,broken_large,1,2.560618,1.472671,Review defect,True,24.2
+test/broken_large/013-77.png,broken_large,1,2.908661,1.472671,Review defect,True,40.7
+test/broken_large/014-76.png,broken_large,1,3.034383,1.472671,Review defect,True,22.6
+test/broken_large/015-75.png,broken_large,1,2.734803,1.472671,Review defect,True,25.2
+test/broken_large/016-71.png,broken_large,1,2.72194,1.472671,Review defect,True,24.0
+test/broken_large/017-61.png,broken_large,1,2.884373,1.472671,Review defect,True,30.7
+test/broken_large/018-55.png,broken_large,1,2.945896,1.472671,Review defect,True,21.6
+test/broken_large/019-47.png,broken_large,1,2.631289,1.472671,Review defect,True,19.6
+test/broken_small/000-93.png,broken_small,1,1.942521,1.472671,Review defect,True,19.6
+test/broken_small/001-93.png,broken_small,1,2.610594,1.472671,Review defect,True,29.2
+test/broken_small/002-93.png,broken_small,1,2.692696,1.472671,Review defect,True,28.3
+test/broken_small/003-93.png,broken_small,1,3.272964,1.472671,Review defect,True,30.8
+test/broken_small/004-93.png,broken_small,1,3.301667,1.472671,Review defect,True,20.4
+test/broken_small/005-93.png,broken_small,1,2.468577,1.472671,Review defect,True,30.0
+test/broken_small/006-93.png,broken_small,1,2.396745,1.472671,Review defect,True,24.5
+test/broken_small/007-93.png,broken_small,1,2.3865,1.472671,Review defect,True,23.3
+test/broken_small/008-92.png,broken_small,1,2.392726,1.472671,Review defect,True,19.8
+test/broken_small/009-91.png,broken_small,1,2.941422,1.472671,Review defect,True,26.8
+test/broken_small/010-82.png,broken_small,1,2.979068,1.472671,Review defect,True,20.5
+test/broken_small/011-80.png,broken_small,1,2.349752,1.472671,Review defect,True,22.8
+test/broken_small/012-77.png,broken_small,1,3.024945,1.472671,Review defect,True,34.4
+test/broken_small/013-76.png,broken_small,1,2.913424,1.472671,Review defect,True,30.3
+test/broken_small/014-75.png,broken_small,1,2.099633,1.472671,Review defect,True,21.5
+test/broken_small/015-74.png,broken_small,1,2.132957,1.472671,Review defect,True,21.1
+test/broken_small/016-70.png,broken_small,1,2.487582,1.472671,Review defect,True,23.4
+test/broken_small/017-60.png,broken_small,1,2.914449,1.472671,Review defect,True,33.1
+test/broken_small/018-54.png,broken_small,1,3.371837,1.472671,Review defect,True,30.6
+test/broken_small/019-46.png,broken_small,1,2.909828,1.472671,Review defect,True,24.2
+test/broken_small/020-45.png,broken_small,1,2.996495,1.472671,Review defect,True,27.7
+test/broken_small/021-42.png,broken_small,1,2.605395,1.472671,Review defect,True,32.7
+test/contamination/000-96.png,contamination,1,2.683493,1.472671,Review defect,True,34.2
+test/contamination/001-96.png,contamination,1,1.967815,1.472671,Review defect,True,30.6
+test/contamination/002-96.png,contamination,1,2.429933,1.472671,Review defect,True,31.0
+test/contamination/003-96.png,contamination,1,1.885489,1.472671,Review defect,True,22.2
+test/contamination/004-96.png,contamination,1,1.74999,1.472671,Review defect,True,22.2
+test/contamination/005-96.png,contamination,1,2.767251,1.472671,Review defect,True,25.6
+test/contamination/006-96.png,contamination,1,2.652161,1.472671,Review defect,True,31.6
+test/contamination/007-96.png,contamination,1,3.619419,1.472671,Review defect,True,22.4
+test/contamination/008-95.png,contamination,1,2.388432,1.472671,Review defect,True,39.9
+test/contamination/009-94.png,contamination,1,2.349717,1.472671,Review defect,True,29.6
+test/contamination/010-85.png,contamination,1,2.566939,1.472671,Review defect,True,21.6
+test/contamination/011-83.png,contamination,1,2.691022,1.472671,Review defect,True,26.9
+test/contamination/012-80.png,contamination,1,2.178418,1.472671,Review defect,True,32.3
+test/contamination/013-79.png,contamination,1,3.600059,1.472671,Review defect,True,25.0
+test/contamination/014-78.png,contamination,1,2.625279,1.472671,Review defect,True,20.1
+test/contamination/015-77.png,contamination,1,2.439738,1.472671,Review defect,True,21.8
+test/contamination/016-73.png,contamination,1,2.066711,1.472671,Review defect,True,23.8
+test/contamination/017-63.png,contamination,1,3.4416,1.472671,Review defect,True,25.3
+test/contamination/018-57.png,contamination,1,3.224939,1.472671,Review defect,True,34.7
+test/contamination/019-49.png,contamination,1,1.890196,1.472671,Review defect,True,22.5
+test/contamination/020-46.png,contamination,1,2.263812,1.472671,Review defect,True,26.4
+test/good/000-95.png,good,0,1.185372,1.472671,Within normal range,False,24.7
+test/good/001-95.png,good,0,1.085348,1.472671,Within normal range,False,52.0
+test/good/002-95.png,good,0,1.255491,1.472671,Within normal range,False,50.2
+test/good/003-95.png,good,0,0.960168,1.472671,Within normal range,False,32.4
+test/good/004-95.png,good,0,1.139126,1.472671,Within normal range,False,42.0
+test/good/005-95.png,good,0,1.015655,1.472671,Within normal range,False,20.5
+test/good/006-95.png,good,0,1.792428,1.472671,Review defect,True,20.9
+test/good/007-95.png,good,0,1.110802,1.472671,Within normal range,False,21.0
+test/good/008-94.png,good,0,1.162211,1.472671,Within normal range,False,25.2
+test/good/009-93.png,good,0,1.142436,1.472671,Within normal range,False,36.2
+test/good/010-84.png,good,0,1.216415,1.472671,Within normal range,False,25.3
+test/good/011-82.png,good,0,1.033832,1.472671,Within normal range,False,20.9
+test/good/012-79.png,good,0,1.139288,1.472671,Within normal range,False,27.2
+test/good/013-78.png,good,0,1.001402,1.472671,Within normal range,False,29.2
+test/good/014-77.png,good,0,1.112962,1.472671,Within normal range,False,26.1
+test/good/015-76.png,good,0,1.29608,1.472671,Within normal range,False,23.4
+test/good/016-72.png,good,0,1.172137,1.472671,Within normal range,False,35.7
+test/good/017-62.png,good,0,1.146029,1.472671,Within normal range,False,25.2
+test/good/018-56.png,good,0,1.266712,1.472671,Within normal range,False,25.0
+test/good/019-48.png,good,0,1.311105,1.472671,Within normal range,False,23.6
