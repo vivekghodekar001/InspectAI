@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "description": "Optional UI regression tests; not needed to run InspectAI",
+  "scripts": {
+    "test": "node test_ui.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.2"
+  }
+}
