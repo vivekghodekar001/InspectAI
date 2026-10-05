@@ -4,3 +4,7 @@ __pycache__/
 data/
 models/*.pth
 *.download
+
+# Optional UI test dependencies and generated real-response fixtures
+tests/node_modules/
+tests/.ui-fixtures.json

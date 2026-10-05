@@ -1,8 +1,498 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>InspectAI · Visual inspection studio</title><link rel="stylesheet" href="/static/style.css"></head>
-<body><aside><a class="brand" href="/">◈ <span>InspectAI<span class="brand-dot">.</span></span></a><div class="workspace">COMPUTER VISION WORKSPACE</div><nav><a class="active" href="#studio">◉ &nbsp; Inspection studio</a><a href="#benchmark">▥ &nbsp; Model benchmark</a><a href="#method">⌘ &nbsp; How it works</a></nav><div class="side-bottom"><span class="live-dot"></span> Local inference<br><small>Your uploads stay on this computer.</small><div class="version">RESEARCH SHOWCASE / V1.0</div></div></aside>
-<main><header><span>Workspace <b>/</b> Inspection studio</span><span class="pill"><i></i> CPU READY</span></header><section id="studio"><div class="eyebrow">SEE THE EXCEPTION</div><div class="headline"><div><h1>Small defects.<br><span>Clearer decisions.</span></h1><p>A visual inspection workspace powered by pretrained vision features.<br>Inspect a bottle image. Locate unusual regions. Review the evidence.</p></div><div class="model-tag"><div>ACTIVE MODEL</div><strong>ResNet18</strong><span>Patch-memory anomaly detection</span></div></div>
-<div class="notice"><strong>Scope matters.</strong> Calibrated for top-down bottle images from MVTec AD. Other objects and camera angles are outside the validated scope. Scores are distances, not confidence percentages.</div>
-<div class="studio-grid"><section class="card input-card"><div class="card-title"><h2><span>01</span> Select an image</h2><span class="tiny">PNG · JPG · WEBP</span></div><label class="dropzone" id="dropzone"><input id="file" type="file" accept="image/png,image/jpeg,image/webp"><span class="upload-icon">↥</span><strong>Drop your image here</strong><span>or click to browse · up to 10 MB</span></label><div class="divider"><span>OR EXPLORE A TEST SAMPLE</span></div><div id="samples" class="sample-grid"></div><div id="selected" class="selected">Choose a sample to get started</div><button id="run" disabled>Run inspection <span>↗</span></button><div role="status" id="message" aria-live="polite"></div></section>
-<section class="card result-card"><div class="card-title"><h2><span>02</span> Inspection result</h2><span id="result-state" class="tiny">AWAITING IMAGE</span></div><div id="empty" class="empty"><div class="empty-glyph">◎</div><h3>Every detail tells a story.</h3><p>Select an image and run inspection to see<br>the original alongside its anomaly heatmap.</p></div><div id="result" hidden><div class="result-images"><figure><img id="original" alt="Original inspected image"><figcaption>ORIGINAL IMAGE</figcaption></figure><figure><img id="overlay" alt="Anomaly heatmap overlay"><figcaption>ANOMALY OVERLAY <span class="gradient"></span></figcaption></figure></div><div class="decision-row"><strong id="decision"></strong><span id="latency"></span></div><div class="score-row"><div><span>Anomaly score</span><strong id="score"></strong></div><div><span>Decision threshold</span><strong id="threshold"></strong></div></div><p class="explanation">Warmer regions show larger distances from learned normal features. Heatmaps are qualitative; localization accuracy has not been benchmarked.</p><button id="download" class="secondary">↓ Download inspection report</button></div></section></div></section>
-<section id="benchmark" class="benchmark"><div class="section-heading"><div><div class="eyebrow">MEASURED, NOT ASSUMED</div><h2>Behind the prediction</h2></div><a href="/api/metrics" download="inspectai-metrics.json">Download metrics ↗</a></div><div class="metrics"><article><span>IMAGE AUROC</span><strong id="auroc">—</strong><small>Ranking normal vs. defective</small></article><article><span>DEFECT RECALL</span><strong id="recall">—</strong><small>At the calibrated threshold</small></article><article><span>FALSE ALARMS</span><strong id="false">—</strong><small>Normal test images flagged</small></article><article><span>TEST IMAGES</span><strong id="count">—</strong><small>Held-out MVTec bottle split</small></article></div><div class="benchmark-note" id="benchmark-note">Loading evaluation details…</div></section>
-<section id="method" class="method"><div><div class="eyebrow">THE METHOD</div><h2>Learn normal.<br>Find what differs.</h2><p>No defect examples are used to build the memory bank. The image-level decision threshold is selected using a separate set of normal images.</p></div><ol><li><b>Extract</b><span>A frozen ImageNet ResNet18 extracts multiscale image features.</span></li><li><b>Compare</b><span>Local patches are compared with a memory of normal bottle features.</span></li><li><b>Review</b><span>The most unusual patches determine the score and guide visual review.</span></li></ol></section><footer>InspectAI · Built for reproducible computer vision <span>Dataset: MVTec AD / CC BY-NC-SA 4.0</span></footer></main><script src="/static/app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f3f1eb" />
+    <title>InspectAI — Inspection workspace</title>
+    <link rel="icon" href="/static/mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#workspace">Skip to workspace</a>
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="InspectAI home"
+        ><img src="/static/mark.svg" width="30" height="30" alt="" /><span
+          >Inspect<span class="brand-ai">AI</span></span
+        ><span class="brand-rule"></span
+        ><span class="edition">VISION LAB</span></a
+      >
+      <nav class="main-nav" aria-label="Workspace views">
+        <button class="nav-item active" data-page="inspect" aria-current="page">
+          Inspection
+        </button>
+        <button class="nav-item" data-page="evaluation">Evaluation</button>
+        <button class="nav-item" data-page="method">Model notes</button>
+      </nav>
+      <div class="connection" id="connection">
+        <span class="status-dot"></span
+        ><span id="connection-text">Connecting</span>
+      </div>
+    </header>
+    <main id="workspace">
+      <section
+        id="page-inspect"
+        class="page"
+        aria-labelledby="inspection-title"
+      >
+        <div class="page-heading">
+          <div>
+            <div class="overline">WORKSPACE / 01</div>
+            <h1 id="inspection-title">
+              Bottle inspection<span class="heading-period">.</span>
+            </h1>
+            <p>Compare a bottle image against the normal reference set.</p>
+          </div>
+          <div class="scope-stamp">
+            <span class="stamp-label">ACTIVE REFERENCE</span
+            ><strong>MVTec · Bottle</strong><span>Top-down view only</span>
+          </div>
+        </div>
+        <div class="workbench">
+          <aside class="source-panel" aria-labelledby="source-title">
+            <div class="section-label">
+              <h2 id="source-title">Source image</h2>
+              <span class="step">01</span>
+            </div>
+            <label class="dropzone" id="dropzone" for="file">
+              <input
+                id="file"
+                type="file"
+                accept="image/png,image/jpeg,image/webp"
+              />
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.4"
+                aria-hidden="true"
+              >
+                <path d="M12 16V3m-5 5 5-5 5 5M4 15v5h16v-5" />
+              </svg>
+              <strong>Upload an image</strong
+              ><span>Drop here or browse files</span
+              ><small>PNG, JPG, WebP · up to 10 MB</small>
+            </label>
+            <div class="sample-heading">
+              <h3>Test samples</h3>
+              <span>04</span>
+            </div>
+            <div
+              class="sample-list"
+              id="samples"
+              aria-label="Test sample images"
+            ></div>
+            <div class="source-note">
+              <span class="note-symbol" aria-hidden="true">↳</span>
+              <p>
+                Use a test sample first.<br />Other products and viewpoints are
+                outside this model’s scope.
+              </p>
+            </div>
+          </aside>
+          <section class="viewer-panel" aria-labelledby="viewer-title">
+            <div class="viewer-toolbar">
+              <div class="viewer-file">
+                <span class="file-icon" aria-hidden="true">▧</span>
+                <h2 id="viewer-title">Image viewer</h2>
+              </div>
+              <div
+                class="view-switch"
+                role="group"
+                aria-label="Image display mode"
+              >
+                <button data-mode="original" aria-pressed="true">
+                  Original</button
+                ><button data-mode="compare" aria-pressed="false" disabled>
+                  Compare</button
+                ><button data-mode="overlay" aria-pressed="false" disabled>
+                  Heatmap
+                </button>
+              </div>
+            </div>
+            <div
+              class="image-stage"
+              id="image-stage"
+              data-mode="original"
+              aria-busy="false"
+            >
+              <div class="stage-grid" aria-hidden="true"></div>
+              <div class="stage-empty" id="stage-empty">
+                <span class="target-mark" aria-hidden="true"></span>
+                <p>Your image appears here</p>
+                <small>Choose a sample or upload a bottle image.</small>
+              </div>
+              <div class="image-frames" id="image-frames" hidden>
+                <figure class="frame original-frame">
+                  <div class="image-mount">
+                    <img id="original" alt="Selected bottle image" />
+                  </div>
+                  <figcaption>
+                    <span class="frame-label">01 / ORIGINAL</span
+                    ><span class="frame-meta">Source image</span>
+                  </figcaption>
+                </figure>
+                <figure class="frame overlay-frame" hidden>
+                  <div class="image-mount">
+                    <img
+                      id="overlay"
+                      alt="Anomaly heatmap for the inspected bottle"
+                    />
+                  </div>
+                  <figcaption>
+                    <span class="frame-label">02 / HEATMAP</span
+                    ><span class="frame-meta">Feature distance</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div id="processing" class="processing" hidden>
+                <span class="spinner" aria-hidden="true"></span
+                ><span>Comparing image features</span>
+              </div>
+              <div class="stage-bottom">
+                <span id="image-caption">No image selected</span
+                ><button
+                  id="expand"
+                  class="text-control"
+                  disabled
+                  aria-haspopup="dialog"
+                >
+                  Enlarge <span aria-hidden="true">↗</span>
+                </button>
+              </div>
+            </div>
+            <div class="viewer-footer">
+              <span class="legend-label">LOWER DISTANCE</span
+              ><span class="heat-legend" aria-hidden="true"></span
+              ><span class="legend-label">HIGHER DISTANCE</span
+              ><span class="legend-note">Heatmap is a visual guide.</span>
+            </div>
+            <div class="action-strip">
+              <div>
+                <span class="action-label">SELECTED IMAGE</span>
+                <p id="selected">Choose an image to begin</p>
+              </div>
+              <button id="run" class="primary-button" disabled>
+                <span id="run-label">Run inspection</span
+                ><svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  aria-hidden="true"
+                >
+                  <path d="M4 12h15m-6-6 6 6-6 6" />
+                </svg>
+              </button>
+            </div>
+            <p
+              id="message"
+              class="message"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </section>
+          <aside class="findings-panel" aria-labelledby="findings-title">
+            <div class="section-label">
+              <h2 id="findings-title">Findings</h2>
+              <span class="step">02</span>
+            </div>
+            <div class="result-status" id="result-status">
+              <span class="result-indicator"></span
+              ><span id="result-state">Not inspected</span>
+            </div>
+            <div id="empty-findings" class="empty-findings">
+              <span class="dash-number">—</span>
+              <h3>Awaiting inspection.</h3>
+              <p>
+                Run an inspection to see the score, decision, and areas worth
+                reviewing.
+              </p>
+            </div>
+            <div id="findings" hidden>
+              <h3 class="decision" id="decision"></h3>
+              <p class="decision-note" id="decision-note"></p>
+              <div class="score-display">
+                <span class="dark-label">ANOMALY SCORE</span>
+                <div>
+                  <strong id="score">—</strong
+                  ><span class="score-unit">distance</span>
+                </div>
+              </div>
+              <div
+                class="score-meter"
+                id="score-meter"
+                role="img"
+                aria-label="Score relative to decision threshold"
+              >
+                <div class="score-fill" id="score-fill"></div>
+                <span class="threshold-mark" id="threshold-mark"></span>
+              </div>
+              <div class="meter-caption">
+                <span>0</span><span>Threshold <b id="threshold">—</b></span
+                ><span id="meter-max">—</span>
+              </div>
+              <dl class="result-details">
+                <div>
+                  <dt>Inference time</dt>
+                  <dd id="latency">—</dd>
+                </div>
+                <div>
+                  <dt>Processing</dt>
+                  <dd>Local CPU</dd>
+                </div>
+                <div>
+                  <dt>Reference</dt>
+                  <dd id="result-category">Bottle</dd>
+                </div>
+              </dl>
+              <button id="download" class="download-button">
+                Download report <span aria-hidden="true">↓</span>
+              </button>
+            </div>
+            <div class="findings-footnote">
+              <span class="dark-label">READING THE RESULT</span>
+              <p>
+                A higher score means a greater difference from normal features.
+                This is not a confidence percentage.
+              </p>
+            </div>
+          </aside>
+        </div>
+        <div class="underbench">
+          <span
+            ><span class="small-dot"></span>Images are processed locally and not
+            retained.</span
+          ><button class="inline-link" data-page="evaluation">
+            View evaluation results <span aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <div class="session-strip" id="session-strip" hidden>
+          <div class="session-label">
+            <h2>This session</h2>
+            <span>Latest 6 inspections · clears on reload</span>
+          </div>
+          <div id="session-list" class="session-list"></div>
+        </div>
+      </section>
+      <section
+        id="page-evaluation"
+        class="page"
+        aria-labelledby="evaluation-title"
+        hidden
+      >
+        <div class="page-heading">
+          <div>
+            <div class="overline">EVALUATION / 02</div>
+            <h1 id="evaluation-title">
+              Evaluation results<span class="heading-period">.</span>
+            </h1>
+            <p>
+              One bottle category. A fixed decision threshold. Every test image
+              counted.
+            </p>
+          </div>
+          <a
+            class="outline-button"
+            href="/api/metrics"
+            download="inspectai-metrics.json"
+            >Download metrics <span aria-hidden="true">↓</span></a
+          >
+        </div>
+        <div id="evaluation-empty" class="evaluation-empty" hidden>
+          Evaluation results are unavailable. The model can still be used when
+          it is ready.
+        </div>
+        <div id="evaluation-content">
+          <div class="metrics-row">
+            <article>
+              <span class="overline">IMAGE AUROC</span
+              ><strong id="auroc">—</strong>
+              <p>Ranking normal and defective images.</p>
+            </article>
+            <article>
+              <span class="overline">DEFECTS FLAGGED</span
+              ><strong id="detected">—</strong>
+              <p id="recall-caption">At the calibrated threshold.</p>
+            </article>
+            <article>
+              <span class="overline">FALSE ALARMS</span
+              ><strong id="false">—</strong>
+              <p>Normal images flagged for review.</p>
+            </article>
+            <article>
+              <span class="overline">TEST IMAGES</span
+              ><strong id="count">—</strong>
+              <p>Official held-out bottle test split.</p>
+            </article>
+          </div>
+          <div class="evaluation-grid">
+            <section class="matrix-section">
+              <div class="section-label">
+                <h2>What happened on the test set</h2>
+                <span class="overline">IMAGE LEVEL</span>
+              </div>
+              <table class="confusion-table">
+                <caption>
+                  Actual class compared with the model’s decision
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Actual class</th>
+                    <th scope="col">Within normal range</th>
+                    <th scope="col">Flagged for review</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Normal</th>
+                    <td id="tn">—</td>
+                    <td id="fp" class="error-cell">—</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Defective</th>
+                    <td id="fn" class="error-cell">—</td>
+                    <td id="tp">—</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="body-note">
+                A false alarm is a normal image flagged for review. A missed
+                defect is a defective image classified within the normal range.
+              </p>
+            </section>
+            <section class="protocol-section">
+              <div class="section-label"><h2>How this was measured</h2></div>
+              <dl class="protocol-list">
+                <div>
+                  <dt>Reference memory</dt>
+                  <dd id="train-count">—</dd>
+                </div>
+                <div>
+                  <dt>Threshold calibration</dt>
+                  <dd id="calibration-count">—</dd>
+                </div>
+                <div>
+                  <dt>Median CPU inference</dt>
+                  <dd id="median-latency">—</dd>
+                </div>
+                <div>
+                  <dt>Pixel-level localization</dt>
+                  <dd>Not evaluated</dd>
+                </div>
+              </dl>
+              <p id="benchmark-note" class="body-note"></p>
+            </section>
+          </div>
+          <div class="scope-note">
+            <strong>Keep the scope in view.</strong>
+            <p>
+              These results describe this dataset and protocol. They do not
+              establish performance on new cameras, other products, or
+              production lines. Heatmaps have not been evaluated as segmentation
+              masks.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        id="page-method"
+        class="page"
+        aria-labelledby="method-title"
+        hidden
+      >
+        <div class="page-heading">
+          <div>
+            <div class="overline">MODEL NOTES / 03</div>
+            <h1 id="method-title">
+              A reference for normal<span class="heading-period">.</span>
+            </h1>
+            <p>
+              The model compares image features with a memory of normal bottles.
+            </p>
+          </div>
+          <span class="model-badge">ResNet18 / frozen features</span>
+        </div>
+        <div class="method-layout">
+          <div class="method-intro">
+            <img src="/static/mark.svg" alt="" width="72" height="72" />
+            <h2>Find the difference.<br />Review the image.</h2>
+            <p>
+              Defects can vary. This approach builds its reference from normal
+              images, then looks for local features that differ from that
+              reference.
+            </p>
+            <div class="technical-note">
+              Scores are distances.<br />Human review remains part of the
+              workflow.
+            </div>
+          </div>
+          <ol class="method-steps">
+            <li>
+              <span>01</span>
+              <div>
+                <h3>Extract local features</h3>
+                <p>
+                  A frozen ImageNet-pretrained ResNet18 reads the image at two
+                  feature scales. Inputs are resized to 192 × 192 pixels.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <h3>Compare with normal patches</h3>
+                <p>
+                  Features are projected to 64 dimensions and compared with a
+                  memory of 6,000 normal patches using nearest-neighbor
+                  distances.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <h3>Score and review</h3>
+                <p>
+                  The nine most unusual patch distances are averaged. The
+                  decision threshold is the 95th percentile of scores from
+                  separate normal calibration images.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <div class="scope-note">
+          <strong>About this implementation</strong>
+          <p>
+            A compact patch-memory baseline with a pretrained backbone. It does
+            not fine-tune the neural network or implement the full published
+            PatchCore method. The included evaluation covers MVTec AD bottles
+            only.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <span
+        >InspectAI <span class="footer-divider">/</span> Visual inspection
+        workspace</span
+      ><span>MVTec AD · CC BY-NC-SA 4.0</span>
+    </footer>
+    <dialog id="image-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-top">
+        <h2 id="dialog-title">Image detail</h2>
+        <button id="close-dialog" class="outline-button">
+          Close <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <img id="dialog-image" alt="Enlarged inspection image" />
+      <p>Press Escape to close.</p>
+    </dialog>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
