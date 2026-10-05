@@ -28,6 +28,12 @@ py -3.12 -m venv .venv
 
 Use Python 3.12 and run `bash start.sh`, then open http://127.0.0.1:7860. The Windows launcher was supplied but not executed on Windows; model and API validation were performed on Linux CPU with Python 3.12. Browser launch was blocked by this execution environment; a visual browser check could not be completed. Apple Silicon installation is not tested; install the appropriate PyTorch wheels if adapting it.
 
+## Inspection workspace
+
+The interface provides **Original / Compare / Heatmap** views, image enlargement, a score-versus-threshold meter, and the six latest inspections in session history. Evaluation and model notes have their own views. Selecting another image clears previous findings and reports. Uploads remain local; session history is cleared when you reload.
+
+See `docs/UI_REDESIGN.md` for the design changes, validation scope, and optional interface tests.
+
 ## What the model actually does
 
 1. Resize the input to 192 × 192 and normalize with ImageNet channel statistics. Unlike a classifier preset, this workflow preserves the entire image without a center crop.
