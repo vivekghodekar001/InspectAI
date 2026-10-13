@@ -1,134 +1,114 @@
 # InspectAI
 
-**AI-powered property inspections from a simple walkthrough video.**
+**AI-Based Image Anomaly Detection for Visual Inspection**
 
-Upload a video, and InspectAI finds the defects, flags structural issues, and gives you a localized repair cost estimate. Built for property managers, restoration teams, and real estate pros who are tired of slow, manual inspection reports.
+InspectAI is a local computer vision application that detects unusual or defective images using a **ResNet18-based anomaly detection model**.
 
-[Live Demo](https://your-vercel-url.vercel.app) · [Report a Bug](https://github.com/vivekghodekar001/InspectAI/issues) · [Request a Feature](https://github.com/vivekghodekar001/InspectAI/issues)
+Currently designed and evaluated for the **MVTec AD bottle category**.
 
----
+## ✨ Features
 
-## Preview
+- 🖼️ Image upload and sample selection
+- 🔍 Visual anomaly detection
+- 📊 Anomaly score and decision
+- 🌡️ Qualitative heatmap
+- ⚡ Inference time measurement
+- 🖥️ Local Flask dashboard
+- 🔒 Uploaded images are not retained
 
-![Real inspection examples](docs/inspection_examples.png)
+## 🔄 How It Works
 
-## What it does
-
-- **Video analysis:** Gemini vision models go through your walkthrough footage frame by frame.
-- **Defect mapping:** Cracks, water damage, mold, and other visible issues are detected and tagged.
-- **Structural anomaly detection:** Flags things that need a closer look from a professional.
-- **Cost estimation:** Repair estimates adjusted to your local market.
-- **Saved inspections:** Sign in with Google and come back to past reports anytime.
-
-## Tech stack
-
-| Layer | Technology |
-|---|---|
-| Frontend | React 19 + Vite, hosted on Vercel |
-| Backend | Node.js + Express, hosted on Render |
-| AI | Google Gemini (vision) |
-| Storage | Cloudflare R2 (S3-compatible) |
-| Database & Auth | Firebase (Firestore + Google OAuth) |
-
-## How it's built
-
+```text
+Image
+  ↓
+Preprocessing
+  ↓
+ResNet18 Features
+  ↓
+Feature Projection
+  ↓
+Normal Memory Bank
+  ↓
+Nearest-Neighbor Comparison
+  ↓
+Anomaly Score
+  ↓
+Threshold
+  ↓
+Normal / Possible Defect
+  ↓
+Heatmap
 ```
-Browser (React SPA on Vercel)
-   │
-   ├── Google sign-in ───────────► Firebase Auth
-   ├── Inspection data ──────────► Firestore
-   ├── Video upload (presigned) ─► Cloudflare R2   (goes straight from browser, skips the server)
-   └── Analysis request ─────────► Express API (Render) ─► Gemini
-```
 
-Large videos never pass through the backend. The browser uploads them directly to R2 using presigned URLs, so uploads stay fast and the server stays light. The backend only handles the heavy AI processing and secure URL signing.
+## 🧠 Model
 
-## Getting started
+- **Backbone:** ResNet18
+- **Input:** 192 × 192
+- **Feature Dimension:** 64
+- **Memory Bank:** Up to 6000 patches
+- **Method:** Patch nearest-neighbor distance
+- **Threshold:** 95th percentile of normal calibration scores
+- **Fine-tuning:** No
 
-### Prerequisites
+> A compact anomaly-detection baseline, not an exact PatchCore implementation.
 
-- Node.js 18+
-- A Firebase project (Auth + Firestore enabled)
-- A Cloudflare R2 bucket
-- A Google Gemini API key
+## 📦 Dataset
 
-### 1. Clone the repo
+**MVTec Anomaly Detection (MVTec AD)** — Bottle category.
+
+## 🚀 Run
+
+### Windows
 
 ```bash
-git clone https://github.com/vivekghodekar001/InspectAI.git
-cd InspectAI
+start_windows.bat
 ```
 
-### 2. Set up the backend
+### Manual
 
 ```bash
-cd server
-npm install
-cp .env.example .env
+python app.py
 ```
 
-Fill in `.env`:
+Open: `http://127.0.0.1:7860`
 
-```env
-GEMINI_API_KEY=your_gemini_key
-R2_ACCOUNT_ID=your_r2_account_id
-R2_ACCESS_KEY_ID=your_r2_access_key
-R2_SECRET_ACCESS_KEY=your_r2_secret
-R2_BUCKET_NAME=your_bucket_name
-FIREBASE_SERVICE_ACCOUNT=your_service_account_json
-```
+## 📈 Evaluation
 
 ```bash
-npm run dev
+python evaluate.py
 ```
 
-### 3. Set up the frontend
+Reports include **AUROC, Precision, Recall, F1-score, Confusion Matrix, and Inference Latency**.
 
-```bash
-cd client
-npm install
-cp .env.example .env
+## 📁 Project Structure
+
+```text
+InspectAI/
+├── app.py
+├── train.py
+├── evaluate.py
+├── inspectai/
+├── models/
+├── reports/
+├── samples/
+├── scripts/
+├── templates/
+├── static/
+└── tests/
 ```
 
-```env
-VITE_API_URL=http://localhost:5000
-# plus your Firebase web config (VITE_FIREBASE_*)
-```
+## ⚠️ Limitations
 
-```bash
-npm run dev
-```
+Currently focused on the **MVTec AD bottle category** and not validated for production use or other camera/object setups.
 
-> Folder names and env variables above are placeholders. Adjust them to match your actual project structure.
+## 🤝 Contributing
 
-## Deployment
+Contributions are welcome. Create a branch, make your changes, test, commit, push, and open a Pull Request.
 
-1. **Firebase:** Create a project, enable Google sign-in, create a Firestore database, and add your web app config.
-2. **Cloudflare R2:** Create a bucket, generate API credentials, and set a CORS policy that allows your frontend origin to `PUT` files.
-3. **Render (backend):** Connect the repo, set the root directory to the server folder, add the environment variables, and deploy.
-4. **Vercel (frontend):** Import the repo, set `VITE_API_URL` to your Render URL, and deploy.
+## 📄 License
 
-## Roadmap
+See `LICENSE`.
 
-- [ ] PDF export for inspection reports
-- [ ] Side-by-side comparison of inspections over time
-- [ ] Multi-user teams and shared workspaces
-- [ ] Mobile-friendly capture flow
-
-## Contributing
-
-Contributions are welcome.
-
-1. Fork the repo
-2. Create a branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "Add your feature"`
-4. Push and open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for details.
-
-## Author
+## 👤 Author
 
 **Vivek Ghodekar**
-GitHub: [@vivekghodekar001](https://github.com/vivekghodekar001)
